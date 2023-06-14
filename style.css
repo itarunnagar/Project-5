@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  /* border: 1px solid white; */
+}
+body {
+  background: #0f0f10;
+}
+
+/* Here Header or Navigation Styling Start */
+/* Here Header or Navigation Styling Start */
+/* Here Header or Navigation Styling Start */
+/* Here Header or Navigation Styling Start */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 180px;
+  padding: 10px 15px;
+}
+.logo img {
+  margin-left: 15px;
+}
+.nav-bar {
+  flex-grow: 1;
+  margin-left: 350px;
+}
+.utility {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 50px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.utility li:hover {
+  cursor: pointer;
+  font-size: 17px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.btn {
+  background: #1e1e21;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+}
+
+/* Image Between Header and Hero Section */
+.mainImage {
+  position: absolute;
+  top: -140px;
+  left: 293px;
+}
+.onEar {
+  margin-top: 90px;
+  margin-left: 800px;
+}
+
+/* Here Body Section or Hero Section Start*/
+/* Here Body Section or Hero Section Start*/
+/* Here Body Section or Hero Section Start*/
+/* Here Body Section or Hero Section Start*/
+/* Here Body Section or Hero Section Start*/
+.hero1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 725px;
+}
+.heading {
+  font-size: 60px;
+  font-weight: 600;
+}
+.subHeading {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #bdc0c2;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.addToBag {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #1e1e21;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+  width: 270px;
+  height: 60px;
+}
+
+/* HEre Hero2  Section Start */
+/* HEre Hero2  Section Start */
+/* HEre Hero2  Section Start */
+/* HEre Hero2  Section Start *
+
+/* Brands Section */
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 155px;
+  margin-top: 110px;
+}
+
+/* Specification Logo Start */
+.specsLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 90px 0px;
+}
+
+/* Specification Section Start */
+.specs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.leftSpecs {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.battery {
+  position: relative;
+  right: 50px;
+}
+.charger {
+  position: relative;
+  right: 50px;
+}
+.box1 {
+  font-size: 10px;
+}
+
+/* Here Case Section OR Next Page Start Hero-3 */
+/* Here Case Section OR Next Page Start Hero-3 */
+/* Here Case Section OR Next Page Start Hero-3 */
+/* Here Case Section OR Next Page Start Hero-3 */
+
+.caseLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 0px;
+}
+.case {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.casedescription {
+  color: #bdc0c2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.moreInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background: #1e1e21;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  width: 189px;
+  height: 51px;
+  border: none;
+}
+
+/* Hero 4 Section Start Here */
+/* Hero 4 Section Start Here */
+/* Hero 4 Section Start Here */
+/* Hero 4 Section Start Here */
+/* Hero 4 Section Start Here */
+
+.hero4 {
+  width: 70%;
+  height: 350px;
+  background-color: #1e1e21;
+  border-radius: 20px;
+  margin: 0px auto;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.leftHeading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.leftSectionSubHeading {
+  color: #bdc0c2;
+  font-size: 14px;
+  margin: 15px 0px;
+}
+.buyNowBtn {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 20px;
+  border-radius: 9px;
+  border: none;
+}
+/* Here Hero 5 Section Start */
+.styleLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.productsCard1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 80px;
+}
+.productCard2 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-left: 589px;
+  margin-top: 77px;
+}
+.productsBox {
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+.headphoneImage img {
+  width: 75px;
+  height: 100px;
+  position: relative;
+  top: -41px;
+  left: 23px;
+}
+.box13 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -24px;
+}
+.box13 img {
+    background-color: black;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+}
+.box13 span{
+    color: #bdc0c2;
+}
+.hero5{
+    margin-bottom: 90px;
+}
+
+
+/* Here Footer Section Styling Start */
+/* Here Footer Section Styling Start */
+/* Here Footer Section Styling Start */
+footer{
+  display: flex;
+  gap: 90px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 250px;
+}
+.footerList{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footerProductList{
+    list-style: none;
+    line-height: 33px;
+    font-size: 14px;
+    color: #BDC0C2;
+}
+.footerInput{
+    background-color: #181a1b;
+    height: 55px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+}
+.footerInput input{
+    background-color: #181a1b;
+    border: none;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.subscibeBtn{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.socailIcons{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    gap: 20px;
+}
