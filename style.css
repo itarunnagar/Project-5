@@ -22,6 +22,9 @@ body {
   margin: 25px 180px;
   padding: 10px 15px;
 }
+.menuBar {
+  display: none;
+}
 .logo img {
   margin-left: 15px;
 }
@@ -56,11 +59,14 @@ body {
 .mainImage {
   position: absolute;
   top: -140px;
-  left: 293px;
+  left: 25%;
 }
 .onEar {
-  margin-top: 90px;
-  margin-left: 800px;
+  margin-top: 50px;
+  margin-left: 65%;
+}
+.onEar img {
+  width: 100%;
 }
 
 /* Here Body Section or Hero Section Start*/
@@ -243,7 +249,7 @@ body {
   display: flex;
   align-items: center;
   gap: 60px;
-  margin-left: 589px;
+  justify-content: center;
   margin-top: 77px;
 }
 .productsBox {
@@ -260,75 +266,310 @@ body {
   left: 23px;
 }
 .box13 {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -24px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -24px;
 }
 .box13 img {
-    background-color: black;
-    border-radius: 3px;
-    width: 20px;
-    height: 20px;
+  background-color: black;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
 }
-.box13 span{
-    color: #bdc0c2;
+.box13 span {
+  color: #bdc0c2;
 }
-.hero5{
-    margin-bottom: 90px;
+.hero5 {
+  margin-bottom: 90px;
 }
 
-
 /* Here Footer Section Styling Start */
 /* Here Footer Section Styling Start */
 /* Here Footer Section Styling Start */
-footer{
+footer {
   display: flex;
-  gap: 90px;
+  gap: 60px;
   margin-top: 150px;
   margin-bottom: 50px;
-  margin-left: 250px;
+  margin-left: 15%;
 }
-.footerList{
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 15px;
+.footerList {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.footerProductList{
-    list-style: none;
-    line-height: 33px;
-    font-size: 14px;
-    color: #BDC0C2;
+.footerProductList {
+  list-style: none;
+  line-height: 33px;
+  font-size: 14px;
+  color: #bdc0c2;
 }
-.footerInput{
-    background-color: #181a1b;
-    height: 55px;
-    width: 400px;
+.footerInput {
+  background-color: #181a1b;
+  height: 55px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: 13px;
+}
+.footerInput input {
+  background-color: #181a1b;
+  border: none;
+  font-size: 17px;
+  margin-left: 20px;
+}
+.subscibeBtn {
+  background: #0a0a0b;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.socailIcons {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px;
+  gap: 20px;
+}
+
+@media (max-width: 1100px) {
+  /* Here Header or Navigation Styling Start */
+  /* Here Header or Navigation Styling Start */
+  /* Here Header or Navigation Styling Start */
+  .header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 20px;
+    max-height: 70px;
+    overflow-y: hidden;
+  }
+  .menuBar {
+    display: block;
+  }
+  .menuBar i {
+    color: white;
+  }
+  .logo img {
+    margin-left: 0px;
+  }
+  .nav-bar {
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+  .utility {
+    display: block;
+    width: 100%;
+  }
+  .utility li {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+
+  /* MAin Image  */
+  .mainImage {
+    display: none;
+    position: absolute;
+    top: -130px;
+    left: 0px;
+    z-index: -1;
+  }
+  .mainImage img {
+    width: 85%;
+  }
+  .onEar {
+    display: block;
+    margin: 20px 0px 20px 30px;
+  }
+  .onEar img {
+    width: 85%;
+  }
+
+  /* Here Body Section or Hero Section Start*/
+  /* Here Body Section or Hero Section Start*/
+  /* Here Body Section or Hero Section Start*/
+  .hero1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    padding: 20px;
+  }
+
+  .description {
+    width: 70%;
+    padding: 0px;
+    line-height: 25px;
+  }
+
+  /* HEre Hero2  Section Start */
+  /* HEre Hero2  Section Start */
+  /* HEre Hero2  Section Start */
+  /* HEre Hero2  Section Start */
+  /* Brands Section */
+
+  .socialMedia {
     display: flex;
     align-items: center;
-    border-radius: 13px;
-}
-.footerInput input{
-    background-color: #181a1b;
-    border: none;
-    font-size: 17px;
-    margin-left: 20px;
-}
-.subscibeBtn{
-    background: #0A0A0B;
-    border-radius: 8px;
-    padding: 10px 20px;
-    border: none;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 75px;
+  }
+  .socialMedia img:nth-child(4) {
+    display: none;
+  }
+
+  /* Specs Logo Heading */
+  .specsLogo {
+    margin: 90px 0px 30px 10px;
+  }
+
+  /* Specification Section Start */
+  .specs {
+    flex-direction: column;
+  }
+  .leftSpecs {
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+    justify-content: space-between;
+  }
+
+  .charger,
+  .battery {
+    position: static;
+  }
+
+  .mobileNone {
+    display: none;
+  }
+
+  /* Here Case Section OR Next Page Start Hero-3 */
+  /* Here Case Section OR Next Page Start Hero-3 */
+  /* Here Case Section OR Next Page Start Hero-3 */
+  /* Here Case Section OR Next Page Start Hero-3 */
+
+  .caseLogo {
+    margin: 50px 0px;
+  }
+  .case {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-}
-.socailIcons{
+    padding: 10px;
+  }
+  .caseLeftSection {
+    /* width: 40%; */
+  }
+  .caseLeftSection img {
+    width: 100px;
+  }
+  .caseRightSection {
+    /* width: 100%; */
+  }
+  .casedescription {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .moreInfo {
+    width: 60%;
+    height: 50px;
+  }
+
+  /* Hero 4 Section Start Here */
+  /* Hero 4 Section Start Here */
+  /* Hero 4 Section Start Here */
+  /* Hero 4 Section Start Here */
+  /* Hero 4 Section Start Here */
+
+  .hero4 {
+    width: 90%;
+    height: 100%;
+    margin-top: 125px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .rigihtSection {
     display: flex;
     align-items: center;
-    margin: 30px 0px;
-    gap: 20px;
+    justify-content: center;
+  }
+  .rigihtSection img {
+    width: 70%;
+  }
+  /* Here Hero 5 Section Start */
+  .styleLogo {
+    margin-top: 50px;
+  }
+  .productsCard1 {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .productCard2 {
+    display: none;
+  }
+  .productsBox {
+    width: 200px;
+    height: 200px;
+    background: #181a1b;
+    border-radius: 8px;
+  }
+  .headphoneImage img {
+    width: 130px;
+    height: 165px;
+    position: relative;
+    top: -65px;
+    left: 25px;
+  }
+  .box13 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+  }
+  .box13 img {
+    background-color: black;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+  }
+  /* Here Footer Section Styling Start */
+  /* Here Footer Section Styling Start */
+  /* Here Footer Section Styling Start */
+  footer {
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .footerInput {
+    width: 90%;
+    justify-content: center;
+  }
+  .footerInput input {
+    width: 70%;
+    padding-left: 10px;
+    margin: 0px;
+  }
+  .subscibeBtn {
+    margin-right: 15px;
+  }
 }

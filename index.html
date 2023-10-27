@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Title of the Page -->
     <title>Beats</title>
 
@@ -23,6 +32,13 @@
     <!-- Here Header Section Start -->
     <header>
       <nav class="header">
+        <!-- Nav BAr Section -->
+
+        <!-- Menu Bar -->
+        <div class="menuBar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
         <!-- Logo Section -->
         <div class="logo"><img src="./Photos/beatsLogo.png" /></div>
 
@@ -113,7 +129,7 @@
             <div class="mic">
               <img src="./Icons/mic.png" alt="Battery" />
               <h5>Microphone</h5>
-              <p class="box1">Supports Apple Siri <br />and Google</p>
+              <p class="box1">Supports Apple Siri <br /> <span class="mobileNone">and Google</span></p>
             </div>
           </div>
 
@@ -283,49 +299,51 @@
     <!-- Here Last And Footer Section Start -->
     <!-- Here Last And Footer Section Start -->
     <footer>
-        <!-- Footer logo -->
-        <div class="footerLogo"><img src="./Photos/beatsLogo.png"></div>
+      <!-- Footer logo -->
+      <div class="footerLogo"><img src="./Photos/beatsLogo.png" /></div>
 
-        <!-- Footer Product List -->
-        <ul class="footerProductList">
-            <li class="footerList">Product</li>
-            <li>Headphone</li>
-            <li>Earphone</li>
-            <li>Earbuds</li>
-            <li>Accessories</li>
-        </ul>
+      <!-- Footer Product List -->
+      <ul class="footerProductList">
+        <li class="footerList">Product</li>
+        <li>Headphone</li>
+        <li>Earphone</li>
+        <li>Earbuds</li>
+        <li>Accessories</li>
+      </ul>
 
-        <!-- Footer Support List -->
-        <ul class="footerProductList">
-            <li class="footerList">Support</li>
-            <li>Product Help</li>
-            <li>Register</li>
-            <li>Updates</li>
-            <li>Provides</li>
-        </ul>
+      <!-- Footer Support List -->
+      <ul class="footerProductList">
+        <li class="footerList">Support</li>
+        <li>Product Help</li>
+        <li>Register</li>
+        <li>Updates</li>
+        <li>Provides</li>
+      </ul>
 
+      <!-- Footer Social Accounts -->
 
-        <!-- Footer Social Accounts -->
+      <section class="footerSocials">
+        <div class="footerInput">
+          <input type="email" placeholder="Email" />
+          <button class="subscibeBtn">
+            <img src="./Icons/rightArrow.png" />
+            Subscribe
+          </button>
+        </div>
 
-        <section class="footerSocials">
-            <div class="footerInput">
-                <input type="email" placeholder="Email">
-                <button class="subscibeBtn">
-                    <img src="./Icons/rightArrow.png">
-                    Subscribe</button>
-            </div>
+        <div class="socailIcons">
+          <img src="./Icons/facebook.png" />
+          <img src="./Icons/twitter.png" />
+          <img src="./Icons/instagram.png" />
+          <img src="./Icons/linkedin.png" />
+        </div>
+      </section>
 
-            <div class="socailIcons">
-                <img src="./Icons/facebook.png">
-                <img src="./Icons/twitter.png">
-                <img src="./Icons/instagram.png">
-                <img src="./Icons/linkedin.png">
-            </div>
-        </section>
-        
-
-        <!-- Footer Arrow Button -->
-        <div class="footerArrow"><img src="./Icons/upArrow.png"></div>
+      <!-- Footer Arrow Button -->
+      <div class="footerArrow"><img src="./Icons/upArrow.png" /></div>
     </footer>
   </body>
+
+  <!-- Script Js -->
+  <script src="./script.js"></script>
 </html>
